@@ -40,8 +40,7 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     mobiledata.interfaces=wlan0 \
-    ro.radio.noril=yes
+    ro.radio.noril=yes \
+    ro.carrier=wifi-only
 
 $(call inherit-product-if-exists, vendor/samsung/lt01wifi/lt01wifi-vendor.mk)
-
-$(call inherit-product, device/samsung/lt01-common/common.mk)
