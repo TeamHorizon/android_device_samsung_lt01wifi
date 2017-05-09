@@ -34,7 +34,6 @@ PRODUCT_PACKAGES += \
     
 # Camera
 PRODUCT_PACKAGES += \
-  Camera2 \
   Snap
 
 # Set build fingerprint / ID / Product Name ect.

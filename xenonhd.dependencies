@@ -1,19 +1,17 @@
 [
-    {
-        "repository": "TH-S3ROOT/android_device_samsung_lt01-common",
-        "target_path": "device/samsung/lt01-common",
-    },
-    {
-        "repository": "LineageOS/android_vendor_cm",
-        "target_path": "vendor/cm",
-        "branch": "cm-14.1"
-    },    
-    {
-        "repository": "android_packages_apps_SamsungServiceMode",
-        "target_path": "packages/apps/SamsungServiceMode"
-    },
-    {
-        "repository": "android_hardware_samsung",
-        "target_path": "hardware/samsung"
-    }
+  {
+    "repository": "TH-S3ROOT/proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "branch": "n"
+  },
+  {
+    "repository": "TH-S3ROOT/android_device_samsung_lt01wifi",
+    "target_path": "device/samsung/lt01wifi",
+    "branch": "n"
+  },
+  {
+    "repository": "TH-S3ROOT/android_device_samsung_lt01-common",
+    "target_path": "device/samsung/lt01-common",
+    "branch": "n"
+  }
 ]
