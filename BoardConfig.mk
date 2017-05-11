@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # This variable is set first, so it can be overridden
 # by BoardConfigVendor.mk
 -include device/samsung/lt01-common/BoardCommonConfig.mk

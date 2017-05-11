@@ -1,17 +1,37 @@
 [
   {
-    "repository": "TH-S3ROOT/proprietary_vendor_samsung",
+    "repository": "TeamHorizon/android_device_samsung_lt01-common",
+    "target_path": "device/samsung/lt01-common",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_kernel_samsung_smdk4x12",
+    "target_path": "kernel/samsung/smdk4x12",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
     "branch": "n"
   },
   {
-    "repository": "TH-S3ROOT/android_device_samsung_lt01wifi",
-    "target_path": "device/samsung/lt01wifi",
+    "repository": "TeamHorizon/android_hardware_samsung",
+    "target_path": "hardware/samsung",
     "branch": "n"
   },
   {
-    "repository": "TH-S3ROOT/android_device_samsung_lt01-common",
-    "target_path": "device/samsung/lt01-common",
+    "repository": "TeamHorizon/android_packages_apps_SamsungServiceMode",
+    "target_path": "packages/apps/SamsungServiceMode",
     "branch": "n"
-  }
+  },
+  { 
+    "repository": "TeamHorizon/android_bootable_recovery",
+    "target_path": "bootable/recovery-twrp",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_external_busybox",
+    "target_path": "external/busybox",
+    "branch": "n"
+  }  
 ]
